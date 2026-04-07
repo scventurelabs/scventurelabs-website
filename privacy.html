@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy & Terms of Service — Pink Code Timer</title>
+  <meta name="description" content="Privacy Policy and Terms of Service for Pink Code Timer by SCVentureLabs."/>
+  <link rel="canonical" href="https://www.scventurelabs.com/privacy.html"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=Manrope:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <style>
+    .legal-wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 5rem 2rem 8rem;
+    }
+    .legal-eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #f43c9e;
+      margin-bottom: 1rem;
+    }
+    .legal-hero-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3rem, 7vw, 5.5rem);
+      line-height: 0.95;
+      margin-bottom: 1.5rem;
+    }
+    .legal-hero-title span { color: #f43c9e; }
+    .legal-date {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      color: #555;
+      letter-spacing: 0.08em;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .legal-toc {
+      background: #0e0e0e;
+      border: 1px solid rgba(244,60,158,0.15);
+      border-radius: 4px;
+      padding: 2rem;
+      margin-bottom: 4rem;
+    }
+    .legal-toc-title {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #f43c9e;
+      margin-bottom: 1.25rem;
+    }
+    .legal-toc-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem 2rem;
+      list-style: none;
+    }
+    .legal-toc-list li a {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.72rem;
+      color: #555;
+      letter-spacing: 0.04em;
+      transition: color 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .legal-toc-list li a::before {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 1px;
+      background: #f43c9e;
+      flex-shrink: 0;
+    }
+    .legal-toc-list li a:hover { color: #fff; }
+    .legal-section-divider {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      color: #fff;
+      margin: 5rem 0 2.5rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .legal-section-divider span { color: #f43c9e; }
+    .legal-section {
+      margin-bottom: 3rem;
+    }
+    .legal-section h3 {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #f43c9e;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .legal-section h3::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(244,60,158,0.15);
+    }
+    .legal-section p {
+      font-size: 0.92rem;
+      color: #888;
+      line-height: 1.85;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
+    .legal-section ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+    }
+    .legal-section ul li {
+      font-size: 0.88rem;
+      color: #888;
+      line-height: 1.7;
+      font-weight: 300;
+      padding-left: 1.25rem;
+      position: relative;
+    }
+    .legal-section ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.6em;
+      width: 6px;
+      height: 1px;
+      background: #f43c9e;
+    }
+    .legal-section ul li strong {
+      color: #ccc;
+      font-weight: 500;
+    }
+    .legal-warning {
+      background: rgba(244,60,158,0.06);
+      border-left: 2px solid #f43c9e;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.25rem;
+      border-radius: 0 4px 4px 0;
+    }
+    .legal-warning p {
+      font-size: 0.85rem;
+      color: #aaa;
+      margin: 0;
+      line-height: 1.7;
+    }
+    .legal-allcaps {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.75rem;
+      color: #666;
+      line-height: 1.8;
+      letter-spacing: 0.03em;
+      background: #0a0a0a;
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 1.5rem;
+      border-radius: 4px;
+      margin-bottom: 1rem;
+    }
+    .legal-contact-box {
+      background: #0e0e0e;
+      border: 1px solid rgba(244,60,158,0.2);
+      border-radius: 4px;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 4rem;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .legal-contact-box h4 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.5rem;
+      margin-bottom: 0.25rem;
+    }
+    .legal-contact-box p {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.7rem;
+      color: #555;
+      margin: 0;
+    }
+    .legal-contact-link {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.78rem;
+      background: #f43c9e;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+      transition: opacity 0.2s;
+    }
+    .legal-contact-link:hover { opacity: 0.85; }
+    @media (max-width: 600px) {
+      .legal-toc-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Pink Code Timer</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#download">Download</a>
+      <a href="mailto:sarah@scventurelabs.com">Support</a>
+    </div>
+    <a href="index.html#download" class="nav-cta">Download Free</a>
+  </nav>
+
+  <div class="legal-wrap">
+
+    <!-- HEADER -->
+    <div class="legal-eyebrow">SCVentureLabs · Legal</div>
+    <h1 class="legal-hero-title">Privacy &<br><span>Terms.</span></h1>
+    <div class="legal-date">Effective Date: February 17, 2026 &nbsp;·&nbsp; Pink Code Timer &nbsp;·&nbsp; SCVentureLabs</div>
+
+    <!-- TABLE OF CONTENTS -->
+    <div class="legal-toc">
+      <div class="legal-toc-title">Contents</div>
+      <ul class="legal-toc-list">
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#no-data">No Personal Data Collection</a></li>
+        <li><a href="#no-tracking">No Third-Party Tracking</a></li>
+        <li><a href="#permissions">Device Permissions</a></li>
+        <li><a href="#tos">Terms of Service</a></li>
+        <li><a href="#disclaimer">Medical Disclaimer</a></li>
+        <li><a href="#liability">Limitation of Liability</a></li>
+        <li><a href="#dispute">Dispute Resolution</a></li>
+      </ul>
+    </div>
+
+    <!-- ── PRIVACY POLICY ── -->
+    <div id="privacy" class="legal-section-divider">
+      <span>01</span> Privacy Policy
+    </div>
+
+    <div id="no-data" class="legal-section">
+      <h3>1. No Personal Data Collection</h3>
+      <p>SC Venture Labs is committed to protecting your privacy. The App is designed to be a local-only tool.</p>
+      <ul>
+        <li><strong>No User Accounts:</strong> We do not require you to create an account, provide an email address, or submit any personal identification to use the App.</li>
+        <li><strong>No Patient Data:</strong> The App does not collect, store, or transmit Protected Health Information (PHI) as defined by HIPAA. Users are strictly prohibited from entering patient-identifiable information into the App.</li>
+        <li><strong>No Cloud Storage:</strong> All timing logs and event data are stored locally on your device. We do not have access to your saved logs or session history.</li>
+      </ul>
+    </div>
+
+    <div id="no-tracking" class="legal-section">
+      <h3>2. No Third-Party Tracking</h3>
+      <ul>
+        <li>We do not use third-party tracking tools (like Google Analytics or Facebook Pixel) within the App.</li>
+        <li>We do not sell, rent, or trade any information about your usage of the App to third parties.</li>
+      </ul>
+    </div>
+
+    <div id="permissions" class="legal-section">
+      <h3>3. Device Permissions</h3>
+      <p>To function correctly, the App may request the following permissions:</p>
+      <ul>
+        <li><strong>Notifications:</strong> To provide audible or haptic alerts for timer intervals.</li>
+        <li><strong>Wake Lock:</strong> To prevent the device screen from dimming or locking during an active resuscitation event.</li>
+        <li><strong>Haptics/Vibration:</strong> To provide physical feedback during noisy clinical environments.</li>
+        <li><strong>Local Storage:</strong> To save your event logs and configuration settings locally on your device.</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h3>4. Technical Logs — App Stores</h3>
+      <p>When you download the App, the Apple App Store or Google Play Store may collect basic telemetry (e.g., device model, OS version, crash reports). This data is governed by the respective store's privacy policy. We only see anonymized, aggregated data provided by those platforms to improve App stability.</p>
+    </div>
+
+    <div class="legal-section">
+      <h3>5. Children's Privacy</h3>
+      <p>The App is intended for use only by licensed healthcare professionals aged 18 and older. We do not knowingly collect information from children under the age of 13.</p>
+    </div>
+
+    <div class="legal-section">
+      <h3>6. Changes to This Policy</h3>
+      <p>We may update this Privacy Policy from time to time. Any changes will be reflected by the "Effective Date" at the top of this page and will be updated within the App.</p>
+    </div>
+
+    <!-- ── TERMS OF SERVICE ── -->
+    <div id="tos" class="legal-section-divider">
+      <span>02</span> Terms of Service
+    </div>
+
+    <div class="legal-warning">
+      <p>By purchasing, downloading, installing, or using the App, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you do not agree, you are prohibited from using the App.</p>
+    </div>
+
+    <div id="disclaimer" class="legal-section">
+      <h3>1. Critical Medical Disclaimer</h3>
+      <ul>
+        <li><strong>Not a Medical Device:</strong> The App has not been cleared or approved by the FDA or any other regulatory body. It is not intended for diagnosis, cure, mitigation, treatment, or prevention of disease.</li>
+        <li><strong>User Configuration:</strong> We are not responsible for errors resulting from incorrect user input, misconfigured intervals, or misunderstood alerts.</li>
+        <li><strong>No Reliance:</strong> You must never rely on the App as the primary or sole method of timing during a medical emergency. Always use a secondary timing method and follow established institutional protocols.</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h3>2. Educational & Preparatory Use</h3>
+      <ul>
+        <li><strong>Primary Purpose:</strong> This App is designed primarily as a learning and simulation tool to help healthcare professionals practice timing and rhythm during ACLS training, simulations, and mock codes.</li>
+        <li><strong>Not a Primary Monitor:</strong> While the App may be used in live clinical environments at the User's sole discretion, it is not a replacement for hospital-grade monitoring equipment or crash-cart timers.</li>
+        <li><strong>Academic Guidance:</strong> Default timer intervals are based on general industry standards (e.g., AHA 2020/2025 guidelines) for illustrative and educational purposes only. You are responsible for ensuring all settings align with your certifying body or employer's current protocols.</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h3>3. Professional Status & Attestation</h3>
+      <p>By using this App, you represent and warrant that:</p>
+      <ul>
+        <li>You are at least 18 years of age.</li>
+        <li>You understand that the App is a supplement to, and not a replacement for, your professional judgment, training, and institutional requirements.</li>
+        <li>You acknowledge that we do not verify the credentials of users. Use by non-professionals is strictly prohibited and at the user's sole risk.</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h3>4. Technical Limitations</h3>
+      <p>You acknowledge that mobile applications are subject to hardware and software failures. We are not liable for App failure caused by:</p>
+      <ul>
+        <li>Depletion of device battery or hardware malfunction.</li>
+        <li>Operating System updates that render the App unstable.</li>
+        <li>Interference from incoming calls, notifications, or other apps.</li>
+        <li>Loss of data due to closing the App.</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h3>5. Data Privacy & HIPAA Compliance</h3>
+      <ul>
+        <li><strong>No PHI:</strong> You are strictly prohibited from entering Protected Health Information or any data that could identify a patient into the App.</li>
+        <li><strong>Responsibility:</strong> You are solely responsible for ensuring your use of the App complies with HIPAA and your employer's data privacy policies. We do not store patient data and are not a "Business Associate" under HIPAA.</li>
+      </ul>
+    </div>
+
+    <div id="liability" class="legal-section">
+      <h3>6. No Warranty</h3>
+      <div class="legal-allcaps">
+        To the maximum extent permitted by law, the App is provided "as is" and "as available." We disclaim all warranties, express or implied, including but not limited to any warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the App will be error-free, accurate, or uninterrupted.
+      </div>
+    </div>
+
+    <div class="legal-section">
+      <h3>7. Limitation of Liability</h3>
+      <div class="legal-allcaps">
+        In no event shall SCVentureLabs, its officers, or developers be liable for any direct, indirect, incidental, special, or consequential damages, including but not limited to personal injury, wrongful death, medical malpractice, or any other damages arising out of the use or inability to use the App. Our aggregate liability shall not exceed the total amount paid by you for the App.
+      </div>
+    </div>
+
+    <div class="legal-section">
+      <h3>8. Indemnification</h3>
+      <p>You agree to defend, indemnify, and hold harmless SCVentureLabs from and against any claims, liabilities, damages, judgments, awards, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or relating to:</p>
+      <ul>
+        <li>Your violation of these Terms.</li>
+        <li>Your clinical performance or decisions made while using the App.</li>
+        <li>Any malpractice claims or patient injury associated with a code where the App was present or utilized.</li>
+      </ul>
+    </div>
+
+    <div id="dispute" class="legal-section">
+      <h3>9. Dispute Resolution</h3>
+      <ul>
+        <li><strong>Binding Arbitration:</strong> Any dispute relating to these Terms will be resolved through binding arbitration in Sacramento, California, rather than in court.</li>
+        <li><strong>Class Action Waiver:</strong> Any dispute resolution proceedings will be conducted only on an individual basis and not in a class, consolidated, or representative action.</li>
+      </ul>
+    </div>
+
+    <div class="legal-section">
+      <h3>10. Governing Law</h3>
+      <p>These Terms are governed by the laws of the State of California, without regard to conflict of law principles. Exclusive jurisdiction for any permitted court proceedings shall be the state or federal courts located in Sacramento County, California.</p>
+    </div>
+
+    <!-- CONTACT BOX -->
+    <div class="legal-contact-box">
+      <div>
+        <h4>Questions or Legal Inquiries?</h4>
+        <p>SCVentureLabs · Sacramento, California</p>
+      </div>
+      <a href="mailto:sarah@scventurelabs.com" class="legal-contact-link">sarah@scventurelabs.com</a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Pink Code Timer</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="index.html#features">Features</a>
+      <a href="mailto:sarah@scventurelabs.com">Support</a>
+    </div>
+    <div class="footer-copy">© 2026 SCVentureLabs. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
